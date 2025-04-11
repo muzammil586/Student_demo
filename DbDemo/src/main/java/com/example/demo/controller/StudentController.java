@@ -20,7 +20,7 @@ public class StudentController {
 	
 	@PostMapping("/add")
 	public Student add(@RequestBody Student std) {
-		
+		System.out.println("test");
 		return studentService.addStudent(std);
 	}
 	
